@@ -1,7 +1,7 @@
 #! /usr/bin/env node
 
-const ASANA_ACCESS_TOKEN = "";
-const DEBUG = "verbose";
+const ASANA_ACCESS_TOKEN = "0/72eb99a4461ba70004ee3762372e293e";
+const DEBUG = false;
 const FORCE_CREATE_LOCAL = false;
 
 const os = require("os");

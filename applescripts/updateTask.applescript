@@ -59,7 +59,7 @@ on run argv
 				
 				log (taskCompleted)
 				if (taskCompleted is not "-") then
-					set completed of theTask to taskCompleted
+					mark complete of theTask with taskCompleted
 				end if
 				
 				if (dueDate is not "-") then
@@ -92,7 +92,7 @@ on run argv
 				
 				log (taskCompleted)
 				if (taskCompleted is not "-") then
-					set completed of theTask to taskCompleted
+					mark complete of theTask with taskCompleted
 				end if
 				
 				if (dueDate is not "-") then
